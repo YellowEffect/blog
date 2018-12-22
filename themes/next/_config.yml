@@ -549,10 +549,10 @@ gitment:
   lazy: false # Comments lazy loading with a button
   cleanly: false # Hide 'Powered by ...' on footer, and more
   language: # Force language, or auto switch by theme
-  github_user: # MUST HAVE, Your Github Username
-  github_repo: # MUST HAVE, The name of the repo you use to store Gitment comments
-  client_id: # MUST HAVE, Github client id for the Gitment
-  client_secret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
+  github_user: YellowEffect
+  github_repo: git@github.com:YellowEffect/YellowEffect.github.io.git
+  client_id: 06fc01244df809ca1e7d
+  client_secret: 00593089ea45582b7a8d15179b790fe0c500f476
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 
@@ -560,12 +560,12 @@ gitment:
 # Demo: https://gitalk.github.io
 # Reference: https://asdfv1929.github.io/2018/01/20/gitalk/, https://liujunzhou.cn/2018/8/10/gitalk-error/#more
 gitalk:
-  enable: false
-  github_id:  # Github repo owner
-  repo:  # Repository name to store issues.
-  client_id:  # Github Application Client ID
-  client_secret:  # Github Application Client Secret
-  admin_user:  # GitHub repo owner and collaborators, only these guys can initialize github issues
+  enable: true
+  github_id: YellowEffect
+  repo: YellowEffect.github.io
+  client_id:  06fc01244df809ca1e7d
+  client_secret:  00593089ea45582b7a8d15179b790fe0c500f476
+  admin_user:  YellowEffect # GitHub repo owner and collaborators, only these guys can initialize github issues
   distraction_free_mode: true # Facebook-like distraction free mode
 
 # Baidu Share
